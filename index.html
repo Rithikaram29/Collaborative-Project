@@ -97,7 +97,7 @@
         }
 
         li:nth-child(7) {
-            color: red;
+            color: #c40c2f;
         }
 
         li {
@@ -111,7 +111,6 @@
             border-bottom: 1px solid black;
             display: flex;
             align-items: center;
-            justify-content: space-between;
         }
 
         #nav-2 input {
@@ -119,13 +118,21 @@
         }
 
         #nav-2 button {
+            padding-right: 3%;
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
             display: flex;
+            flex-direction: row;
             color: white;
             background-color: #c40c2f;
             border: none;
             border-radius: 10px;
+            gap:10px;
+            align-items: flex-start;
+
         }
 
+    
 
     </style>
 </head>
@@ -177,6 +184,9 @@
             <li>CLASSICS</li>
             <li>SALE</li>
         </ul>
+
+        
+        
         <div class="search">
 
             <label for="search"> <span class="material-symbols-outlined">
@@ -191,10 +201,11 @@
                 local_shipping
                 </span>
             <div>
-                <div>EXPRESS DELIVERY</div>
+                <div><b>EXPRESS DELIVERY</b></div>
                 <div>Select your nearest store</div>
             </div>
         </button>
+  
 
 
     </div>
